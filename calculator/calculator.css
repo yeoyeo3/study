@@ -1,0 +1,97 @@
+body, p,
+h1, h2, h3, h4, h5, h6,
+ul, ol, li,
+dl, dt, dd,
+table, th, td,
+form, fieldset, legend, input, textarea, button, select {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  background-color: #b2dfdb;
+  height: 100%;
+}
+
+body,
+input,
+textarea,
+select,
+button,
+table {
+	font-size: 1rem;
+}
+
+img,
+fieldset {
+	border: 0;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+em, address {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+body:after {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+  content: '';
+}
+
+.wrap {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.calculator {
+  padding: 40px;
+  background-color: #00796b;
+  border-radius: 20px
+}
+
+input {
+  display: block;
+  width: 300px;
+  background: #333;
+  border: 0;
+  padding: 0 20px;
+  height: 4rem;
+  line-height: 4rem;
+  color: #fff;
+}
+
+.history {
+  position: absolute;
+  bottom: 100%;
+  left: 40px;
+  right: 40px;
+  background: #eee;
+  max-height: 200px;
+  text-align: left;
+  overflow-y: auto;
+}
+
+.history li {
+  padding: 10px 20px;
+}
